@@ -1,0 +1,46 @@
+.logo{
+  display: flex;
+  gap: 30px;
+  margin-left: 54px;
+  margin-top: -93px;
+  font-family: "Comic Sans MS";
+}
+.fotka1{
+  margin-top: 21px;
+}
+.menu {
+  display: flex;
+  gap: 60px;
+  font-size: 20px;
+  margin-left: 460px;
+  margin-top: -70px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+}
+.pict{
+  display: flex;
+  gap: 60px;
+  margin-left: 1130px;
+  margin-top: -48px;
+}
+.fon{
+  width: 1440px;
+  height: 100px;
+  background: white;
+}

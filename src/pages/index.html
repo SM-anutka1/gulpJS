@@ -18,18 +18,97 @@
 <!--"text": "Текст описания карточки 1"-->
 <!--})-->
 
-<!--@@include('../components/_card.html', {-->
-<!--"img": "./assets/images/cat1",-->
-<!--"alt": "Изображение 2",-->
-<!--"title": "Заголовок 2",-->
-<!--"text": "Текст описания карточки 2"-->
-<!--})-->
 
-@@include('../components/_header.html', {
-"header__html": "./assets/images/pervaya",
-"text": "Заголовок 1",-->
-<!--"text": "Текст описания карточки 1"-->
-})
+
+@@include('../components/_header.html')
+
+
+<div class="big1">
+
+    <div class="kvadratyelow">
+        <h4 class="text1_yellow"> New Arrival </h4>
+
+        <b class="text2_yellow" > Discover Our <br> New Collection </b>
+
+        <p class="text3_yellow">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br>
+            elit tellus, luctus nec ullamcorper mattis. </p>
+
+        <div class="btn1">
+            <button class="bnt_1"> <b>Buy Now </b> </button>
+    </div>
+
+    </div>
+
+<div class="block1"></div>
+
+        <h1 class="zagol"> Browse The Range</h1>
+
+    <div class="text2">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="cardstranicka1">
+        @@include('../components/_home.html', {
+        "img": "./assets/images/dining",
+        "alt": "Изображение 1",
+        "title": "Dining",
+        })
+        @@include('../components/_home.html', {
+        "img": "./assets/images/living",
+        "alt": "Изображение 1",
+        "title": "Living",
+        })
+        @@include('../components/_home.html', {
+        "img": "./assets/images/bedroom",
+        "alt": "Изображение 1",
+        "title": "Bedroom",
+        })
+
+    </div>
+
+    <div class="products">
+       <b> Our Products</b>
+    </div>
+    @@include('../components/_products.html', {
+    "img": "./assets/images/product1",
+    "alt": "Изображение 1",
+    "title": "Syltherine",
+    "text": "Stylish cafe chair",
+    "cost": "Rp 2.500.000",
+    "sale": "Rp 3.500.000",
+    })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
 </body>
 </html>
