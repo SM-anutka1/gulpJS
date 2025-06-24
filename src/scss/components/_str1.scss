@@ -1,28 +1,37 @@
-.fotka2{
-  margin-top: 25px;
+.large{
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-image: url("/assets/images/bigfoto.webp");
+  background-size: cover;
+  background-position: center;
 }
-.yellow{
-  margin-top: -2000px;
-  margin-left: 724px;
+.box{
+  text-align: left;
+  position: absolute;
+  right: 5%;
+  top: 23%;
+  width: 35%;
+  height: 60%;
+  background-color: #FFF3E3;
+  padding: 40px 60px;
+  border-radius: 10px;
+
 }
 .text1_yellow{
   font-size: 25px;
-  margin-top: -416px;
-  margin-left: 739px;
   font-family: "Comic Sans MS";
 }
 .text2_yellow{
   color: #B88E2F;
   font-size: 50px;
-  margin-left: 735px;
   font-family: "Comic Sans MS";
 }
 .text3_yellow{
-  margin-left: 741px;
   font-size: 20px;
   font-family: "Comic Sans MS";
 }
-.bnt_1{
+.btn{
   width: 222px;
   height: 75px;
   font-size: 20px;
@@ -32,17 +41,14 @@
   cursor: pointer;
   font-family: "Comic Sans MS";
 }
-.btn1{
-  margin-left: 738px;
-  margin-top: 44px;
-}
+
 .block1{
   width: 1440px;
   height: 2000px;
   background: white;
 }
 .zagol{
-  margin-top: -1700px;
+  margin-top: -1900px;
   text-align: center;
   font-family: "Comic Sans MS";
 }
@@ -58,14 +64,15 @@
   text-align: center;
   font-family: "Comic Sans MS";
 }
-.kvadratyelow{
-  background: #FFF3E3;
-  width: 643px;
-  height: 443px;
-
-}
-.big1{
-  background-image: url( "../images/bigfoto.webp");
-  width: 100%;
-  height: 713px;
-}
+//.kvadratyelow{
+//  background: #FFF3E3;
+//  width: 643px;
+//  height: 443px;
+//
+//}
+//.big1{
+//  background-image: url( ".assets/images/bigfoto.webp");
+//  width: 100%;
+//  height: 713px;
+//  margin-top: 800px;
+//}

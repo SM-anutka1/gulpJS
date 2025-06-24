@@ -1,0 +1,79 @@
+.header {
+  .logo__image {
+    margin-top: 30px;
+  }
+
+  .header__title {
+    margin-left: 65px;
+    margin-top: -36px;
+  }
+
+  .people__image {
+    margin-left: 1200px;
+    margin-top: -10px;
+  }
+
+  .search__image {
+    margin-left: 60px;
+  }
+
+  .heart__image {
+    margin-left: 60px;
+  }
+
+  .cart__image {
+    margin-left: 60px;
+  }
+
+  .menu {
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+    margin-left: 700px;
+    margin-top: -72px;
+    text-align: center;
+    font-family: "Comic Sans MS";
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 40px;
+    }
+  }
+}
+.menunew{
+  display: flex;
+  gap: 60px;
+  font-size: 20px;
+  margin-left: 1500px;
+  margin-top: -72px;
+  text-align: center;
+  font-family: "Comic Sans MS";
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+}
+

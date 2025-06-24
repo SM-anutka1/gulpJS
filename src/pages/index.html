@@ -20,24 +20,28 @@
 
 
 
-@@include('../components/_header.html')
+@@include('../components/_header.html', {
+"img5": "./assets/images/Rectangle",
+"img": "./assets/images/pervaya",
+"img1": "./assets/images/people",
+"img2": "./assets/images/search",
+"img3": "./assets/images/heart",
+"img4": "./assets/images/cart",
+"title": "Furniro",
+})
 
-
-<div class="big1">
-
-    <div class="kvadratyelow">
-        <h4 class="text1_yellow"> New Arrival </h4>
-
-        <b class="text2_yellow" > Discover Our <br> New Collection </b>
-
-        <p class="text3_yellow">  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br>
-            elit tellus, luctus nec ullamcorper mattis. </p>
-
-        <div class="btn1">
-            <button class="bnt_1"> <b>Buy Now </b> </button>
+<section class="large">
+    <div class="box">
+        <div class="text1_yellow"> New Arrival</div>
+        <h2 class="text2_yellow"> Discover Our <br> New Collection</h2>
+        <p class="text3_yellow">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.
+        </p>
+        <button class="btn"> Buy Now</button>
+        </div>
     </div>
 
-    </div>
+</section>
 
 <div class="block1"></div>
 
@@ -68,6 +72,7 @@
     <div class="products">
        <b> Our Products</b>
     </div>
+
     @@include('../components/_products.html', {
     "img": "./assets/images/product1",
     "alt": "Изображение 1",
@@ -107,7 +112,6 @@
 
 
 
-</div>
 
 
 </body>

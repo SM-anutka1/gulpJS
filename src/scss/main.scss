@@ -12,14 +12,11 @@
 // ==== 4. Components ====
 @use 'components/button';
 @use 'components/card';
+@use 'components/home';
 @use 'components/header';
 @use 'components/str1';
-@use 'components/home';
 @use 'components/products';
 
-
-
-
 body {
-  background-color: var(--main-color);
+  background-color: #ffffff;
 }
