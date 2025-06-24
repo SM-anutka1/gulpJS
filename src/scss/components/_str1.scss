@@ -21,15 +21,18 @@
 .text1_yellow{
   font-size: 25px;
   font-family: "Comic Sans MS";
+  justify-content: space-around;
 }
 .text2_yellow{
   color: #B88E2F;
   font-size: 50px;
   font-family: "Comic Sans MS";
+  justify-content: space-around;
 }
 .text3_yellow{
   font-size: 20px;
   font-family: "Comic Sans MS";
+  justify-content: space-around;
 }
 .btn{
   width: 222px;
@@ -40,29 +43,37 @@
   border: none;
   cursor: pointer;
   font-family: "Comic Sans MS";
+  justify-content: space-around;
 }
 
 .block1{
   width: 1440px;
   height: 2000px;
   background: white;
+  justify-content: space-around;
 }
 .zagol{
   margin-top: -1900px;
   text-align: center;
   font-family: "Comic Sans MS";
+  justify-content: space-around;
+  display: flex;
 }
 .text2{
   color: #666666;
   font-size: 20px;
   text-align: center;
   font-family: "Comic Sans MS";
+  justify-content: space-around;
+  display: flex;
 }
 .products{
   font-size: 35px;
   margin-top: 25px;
   text-align: center;
   font-family: "Comic Sans MS";
+  justify-content: space-around;
+  display: flex;
 }
 //.kvadratyelow{
 //  background: #FFF3E3;
