@@ -1,47 +1,132 @@
-.cart_grey{
+.card_product{
   width: 285px;
-  height: 145px;
-  background: #F4F5F7;
-  margin-top: -600px;
-}
-.card__text{
-  color: #666666;
-}
-.card__sale{
-  color: #666666;
-}
-.cardmini__image{
-  margin-left: -58px;
-  background-image: url("/assets/images/product1.webp");
-  background-size: cover;
-  background-position: center;
-}
-.circle1{
-  width: 48px;
-  height: 48px;
-  border-radius: 40px;
-  background: #E97171;
-  font-size: 15px;
-  color: white;
-}
-.cartochka__title{
-  font-size: 30px;
-  margin-top: -295px;
-}
-.card__text{
-  font-size: 20px;
-  margin-top: -10px;
-}
-.card__cost{
-  font-size: 25px;
-  margin-top: -5px;
-}
-.card__sale{
-  font-size: 20px;
-  margin-top: -50px;
-  margin-left: 165px;
-}
+  height: 446px;
+  background-color: #F4F5F7;
 
+  picture img{
+    width: 100%;
+    height: auto;
+  }
+
+  .cartochka__body {
+    padding: 20px 10px;
+
+    h3 {
+      padding: 0;
+      margin: 0;
+    }
+
+    .block_price {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card__text{
+      font-size: 15px;
+      color: #898989;
+    }
+    .card__sale{
+      font-size: 15px;
+      color: #898989;
+    }
+
+    .image-container {
+      .circle {
+        width: 48px;
+        height: 48px;
+        border-radius: 40px;
+        background: #E97171;
+        font-size: 15px;
+        color: white;
+
+      }
+    }
+  }
+}
+//.cart_grey{
+//  width: 285px;
+//  height: 145px;
+//  background: #F4F5F7;
+//  margin-top: -5px;
+//
+//}
+//.cartochka__title{
+//  font-size: 30px;
+//  margin-top: -133px;
+//  width: 100%;
+//
+//}
+//.card__text{
+//  color: #666666;
+//  width: 100%;
+//  font-size: 20px;
+//  margin-top: -10px;
+//}
+//.card__sale{
+//  color: #666666;
+//  width: 100%;
+//  font-size: 20px;
+//  margin-left: 172px;
+//  padding-top: -123px;
+//  position: absolute;
+//}
+//.cardmini__image{
+//  background-image: url("/assets/images/product1.webp");
+//  background-size: cover;
+//  background-position: center;
+//  margin-top: 120px;
+//}
+//.card__cost{
+//  font-size: 25px;
+//  margin-top: 10px;
+//}
+//
+
+//}
+//.image-container {
+//  position: relative;
+//  display: inline-block;
+//  width: 100%;
+//
+//}
+//
+//.circle {
+//  position: absolute;
+//  border-radius: 50%;
+//  width: 48px;
+//  height: 48px;
+//  background: #E97171;
+//  border: none;
+//  margin-top: -460px;
+//  margin-left: 225px;
+//}
+//.circle-1 {
+//  position: absolute;
+//  border-radius: 50%;
+//  width: 48px;
+//  height: 48px;
+//  background: none;
+//  border: none;
+//  color: white;
+//  margin-top: 12px;
+//  font-size: 20px;
+//  margin-left: 3px;
+//}
+//.circle-0 {
+//  top: -457px;
+//  left: 223px;
+//}
+//
+//.circle-1 {
+//  top: -457px;
+//  left: 223px;
+//}
+//.cartochka__body{
+//  left: 120px;
+//  margin-top: 0px;
+//
+//}
 
 
 

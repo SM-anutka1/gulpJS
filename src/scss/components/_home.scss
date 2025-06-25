@@ -1,6 +1,8 @@
+
 .card{
-  margin-top: 48px;
+  margin-top: 40px;
   margin-left: 90px;
+  width: 100%;
 }
 .cardstranicka1{
   display: flex;
@@ -10,4 +12,11 @@
   text-align: center;
   font-size: 25px;
   font-family: "Comic Sans MS";
+  width: 100%;
+}
+.card__body{
+  margin-left: -80px;
+}
+.card__image{
+  margin-left: 30px;
 }

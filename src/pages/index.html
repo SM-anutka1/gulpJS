@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/main.css">
     <title>Document</title>
 </head>
 <body>
@@ -35,12 +35,15 @@
         <div class="text1_yellow"> New Arrival</div>
         <h2 class="text2_yellow"> Discover Our <br> New Collection</h2>
         <p class="text3_yellow">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.
-        </p>
-        <button class="btn"> Buy Now</button>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
+        @@include('../components/_button.html', {
+        "padding-x": "72px",
+        "padding-y": "25px",
+        "border-radius": "0px",
+        "titlebtn": "Buy Now",
+        "font-size": "16px",
+        })
         </div>
-    </div>
-
 </section>
 
 <div class="block1"></div>
@@ -69,44 +72,89 @@
 
     </div>
 
-    <div class="products">
-       <b> Our Products</b>
-    </div>
+       <b class="products" > Our Products</b>
+
+<div class="productcart">
+    @@include('../components/_products.html', {
+    "img": "./assets/images/product1",
+    "circle": "-30%",
+    "title": "Syltherine",
+    "text": "Stylish cafe chair",
+    "cost": "Rp 2.500.000",
+    "sale": "<s> Rp 3.500.000</s>",
+    "isCircle" : true,
+    "isSale" : true,
+    })
 
     @@include('../components/_products.html', {
-    "circle1": "-30%",
-    "circle2": "-50%",
-    "circle3": "-NEW",
-    "img": "./assets/images/product1",
-    "img2": "./assets/images/product2",
-    "img3": "./assets/images/product2_2",
-    "img4": "./assets/images/product3",
-    "img5": "./assets/images/product4",
-    "alt": "",
-    "title": "Syltherine",
-    "title": "Leviosa",
-    "title": "Lolito",
-    "title": "Respira",
-    "text": "Stylish cafe chair",
-    "text": "Stylish cafe chair",
-    "text": "Luxury big sofa",
-    "text": "Outdoor bar table and stool",
-    "cost": "Rp 2.500.000",
-    "cost": "Rp 2.500.000",
-    "cost": "Rp 7.000.000",
-    "cost": "Rp 500.000",
-    "sale": "<s> Rp 3.500.000</s>",
-    "sale": "<s> Rp 14.000.000</s>",
-    })
-<!--    @@include('../components/_products.html', {
     "img": "./assets/images/product2",
-    "img2": "./assets/images/product2_2",
-    "alt": "",
     "title": "Leviosa",
     "text": "Stylish cafe chair",
     "cost": "Rp 2.500.000",
     "sale": "",
-    })-->
+    "isCircle" : false,
+    "isSale" : false,
+    })
+    @@include('../components/_products.html', {
+    "img": "./assets/images/product3",
+    "title": "Lolito",
+    "text": "Luxury big sofa",
+    "cost": "Rp 7.000.000",
+    "sale": "<s> Rp 14.000.000</s>",
+    "isCircle" : false,
+    "isSale" : true,
+    })
+    @@include('../components/_products.html', {
+    "img": "./assets/images/product3",
+    "title": "Respira",
+    "text": "Outdoor bar table and stool",
+    "cost": "Rp 500.000",
+    "sale": "<s> Rp 14.000.000</s>",
+    "isCircle" : false,
+    "isSale" : false,
+    })
+</div>
+
+<div class="productcart">
+    @@include('../components/_products.html', {
+    "img": "./assets/images/product1",
+    "circle": "-30%",
+    "title": "Syltherine",
+    "text": "Stylish cafe chair",
+    "cost": "Rp 2.500.000",
+    "sale": "<s> Rp 3.500.000</s>",
+    "isCircle" : true,
+    "isSale" : true,
+    })
+
+    @@include('../components/_products.html', {
+    "img": "./assets/images/product2",
+    "title": "Leviosa",
+    "text": "Stylish cafe chair",
+    "cost": "Rp 2.500.000",
+    "sale": "",
+    "isCircle" : false,
+    "isSale" : false,
+    })
+    @@include('../components/_products.html', {
+    "img": "./assets/images/product3",
+    "title": "Lolito",
+    "text": "Luxury big sofa",
+    "cost": "Rp 7.000.000",
+    "sale": "<s> Rp 14.000.000</s>",
+    "isCircle" : false,
+    "isSale" : true,
+    })
+    @@include('../components/_products.html', {
+    "img": "./assets/images/product3",
+    "title": "Respira",
+    "text": "Outdoor bar table and stool",
+    "cost": "Rp 500.000",
+    "sale": "<s> Rp 14.000.000</s>",
+    "isCircle" : false,
+    "isSale" : false,
+    })
+</div>
 
 
 
@@ -115,16 +163,11 @@
 
 
 
+<!--    "title": "Respira",-->
 
+<!--    "text": "Outdoor bar table and stool",-->
 
-
-
-
-
-
-
-
-
+<!--    "cost": "Rp 500.000",-->
 
 
 
