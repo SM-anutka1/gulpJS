@@ -92,35 +92,56 @@
   justify-content: space-around;
 }
 
+.btnbig {
+  border: 0;
+  text-align: center;
+  color: #B88E2F;
+  background: none;
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 80px;
+  font-family: "Comic Sans MS";
+  justify-content: space-around;
+}
+
 .cvetlya_block {
   background: #FCF8F3;
-  width: 1440px;
-  height: 670px;
-  justify-content: space-around;
   width: 100%;
-  margin-top: 200px;
+  height: 670px;
+  justify-content: center;
+  display: flex;
+  margin-top: 70px;
 
   .cvetlaya_title {
-    font-size: 40px;
+    font-size: 70px;
+    margin-left: -300px;
   }
 
   .cvetlaya_text {
     color: #616161;
     font-size: 20px;
+    margin-left: -300px;
   }
 
   .block_cvet {
     display: inline-block;
     margin-top: 200px;
+    margin-left: -300px;
+  }
+
+  .xyq {
+    margin-left: -300px;
+    margin-top: 50px;
   }
 
   .cvetlaya_mini {
     background-image: url(/assets/images/cvetl1.webp);
     background-repeat: no-repeat;
-    margin-top: -465px;
+    margin-top: 50px;
     width: 404px;
     height: 582px;
-    margin-left: 470px;
+    margin-left: 200px;
 
   }
 
@@ -135,7 +156,7 @@
     background-color: red;
     width: 48px;
     height: 48px;
-    margin-left: 300px;
+    //margin-left: 300px;
   }
 
   .cvetl_text_kvadr {
@@ -144,15 +165,80 @@
     color: white;
     text-align: center;
   }
-  .cvetlaya_small_text{
+
+  .cvetlaya_small_text {
     color: #616161;
   }
-  .cvetlaya_small_titile{
+
+  .cvetlaya_small_titile {
 
   }
 
+  .svetcard__image {
+    margin-top: 423px;
+    margin-left: 21px;
+  }
+
+  .svetcardmini__image {
+    margin-left: -5px;
+  }
+
+  .second_cvetl {
+    margin-top: 50px;
+    margin-left: 1100px;
+    position: absolute;
+    display: inline-block;
+
+    .tochki {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+}
+
+.different {
+  margin-top: 67px;
+  align-items: center;
+  text-align: center;
+
+  .different_text_one {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: center;
+    color: #666666;
+    gap: 20px;
+
+  }
+
+  .different_text_two {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .different_foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+    .different_foto {
+      padding: 30px;
+    }
+  }
+  .image_pair{
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 
-616161
 

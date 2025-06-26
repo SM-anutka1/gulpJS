@@ -19,7 +19,6 @@
 <!--})-->
 
 
-
 @@include('../components/_header.html', {
 "img5": "./assets/images/Rectangle",
 "img": "./assets/images/pervaya",
@@ -35,44 +34,47 @@
         <div class="text1_yellow"> New Arrival</div>
         <h2 class="text2_yellow"> Discover Our <br> New Collection</h2>
         <p class="text3_yellow">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.
+        </p>
         @@include('../components/_button.html', {
         "padding-x": "72px",
         "padding-y": "25px",
         "border-radius": "0px",
         "titlebtn": "Buy Now",
         "font-size": "16px",
+        "colortext": "white",
+        "color": "#B88E2F",
         })
-        </div>
+    </div>
 </section>
 
 <div class="block1"></div>
 
-        <h1 class="zagol"> Browse The Range</h1>
+<h1 class="zagol"> Browse The Range</h1>
 
-    <div class="text2">
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </div>
-    <div class="cardstranicka1">
-        @@include('../components/_home.html', {
-        "img": "./assets/images/dining",
-        "alt": "Изображение 1",
-        "title": "Dining",
-        })
-        @@include('../components/_home.html', {
-        "img": "./assets/images/living",
-        "alt": "Изображение 1",
-        "title": "Living",
-        })
-        @@include('../components/_home.html', {
-        "img": "./assets/images/bedroom",
-        "alt": "Изображение 1",
-        "title": "Bedroom",
-        })
+<div class="text2">
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+<div class="cardstranicka1">
+    @@include('../components/_home.html', {
+    "img": "./assets/images/dining",
+    "alt": "Изображение 1",
+    "title": "Dining",
+    })
+    @@include('../components/_home.html', {
+    "img": "./assets/images/living",
+    "alt": "Изображение 1",
+    "title": "Living",
+    })
+    @@include('../components/_home.html', {
+    "img": "./assets/images/bedroom",
+    "alt": "Изображение 1",
+    "title": "Bedroom",
+    })
 
-    </div>
+</div>
 
-       <b class="products" > Our Products</b>
+<b class="products"> Our Products</b>
 
 <div class="productcart">
     @@include('../components/_products.html', {
@@ -108,6 +110,7 @@
     @@include('../components/_products.html', {
     "img": "./assets/images/product3",
     "circle": "New",
+    "color": "var(--zelenya-color)",
     "title": "Respira",
     "text": "Outdoor bar table and stool",
     "cost": "Rp 500.000",
@@ -132,6 +135,7 @@
     @@include('../components/_products.html', {
     "img": "./assets/images/product6",
     "circle": "New",
+    "color": "var(--zelenya-color)",
     "title": "Muggo",
     "text": "Small mug",
     "cost": "Rp 150.000",
@@ -152,6 +156,7 @@
     @@include('../components/_products.html', {
     "img": "./assets/images/product8",
     "circle": "New",
+    "color": "var(--zelenya-color)",
     "title": "Potty",
     "text": "Minimalist flower pot",
     "cost": "Rp 500.000",
@@ -160,57 +165,104 @@
     "isSale" : false,
     })
 </div>
+<div class="btnbig">
+    @@include('../components/_button.html', {
+    "padding-x": "35px",
+    "padding-y": "20px",
+    "border-radius": "0px",
+    "titlebtn": "Show More",
+    "font-size": "16px",
+    "colortext": "#B88E2F",
+    "color": "white",
+    "bordercolor": "#B88E2F",
 
-@@include('../components/_button.html', {
-"padding-x": "72px",
-"padding-y": "25px",
-"border-radius": "0px",
-"titlebtn": "Show More",
-"font-size": "16px",
-})
+    })
+</div>
+
 
 <div class="cvetlya_block">
     <div class="block_cvet">
         <h2 class="cvetlaya_title">50+ Beautiful rooms <br> inspiration</h2>
-        <p class="cvetlaya_text">Our designer already made a lot of beautiful <br> prototipe of rooms that inspire you</p>
-        @@include('../components/_button.html', {
-        "padding-x": "72px",
-        "padding-y": "25px",
-        "border-radius": "0px",
-        "titlebtn": "Show More",
-        "font-size": "16px",
-        })
+        <p class="cvetlaya_text">Our designer already made a lot of beautiful <br> prototipe of rooms that inspire you
+        </p>
+        <div class="xyq">
+            @@include('../components/_button.html', {
+            "padding-x": "35px",
+            "padding-y": "20px",
+            "border-radius": "0px",
+            "titlebtn": "Explore More",
+            "font-size": "16px",
+            "colortext": "white",
+            "color": "#B88E2F",
+            })
+        </div>
+
     </div>
 
-<div class="cvetlaya_mini">
-
-    <div class="cvetlaya_small">
-        <p class="cvetlaya_small_text"> 01 - Bed Room</p>
-        <h3 class="cvetlaya_small_titile"> Inner Peace </h3>
-        <div class="cvetl_kvadr">
-            <p class="cvetl_text_kvadr"> ⇨ </p>
+    <div class="cvetlaya_mini">
+        <img src="./assets/images/Content.webp" alt="" class="svetcard__image">
+        <img src="./assets/images/CTA.webp" alt="" class="svetcardmini__image">
+    </div>
+    <div class="second_cvetl">
+        <img src="./assets/images/cvetl2.webp">
+        <div class="tochki">
+            <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle opacity="0.7" cx="13.5" cy="13.5" r="13" stroke="#B88E2F"/>
+                <circle cx="13.5" cy="13.5" r="5" fill="#B88E2F" stroke="#B88E2F"/>
+            </svg>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+            </svg>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+            </svg>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+            </svg>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+            </svg>
         </div>
     </div>
 </div>
 
+<section class="different">
+    <div class="different_text">
+        <div class="different_text_one">Share your setup with</div>
+        <div class="different_text_two">#FuniroFurniture</div>
+    </div>
 
-</div>
+    <div class="different_foto">
 
+        <div class="different_foto_left">
+            <div class="image_pair">
+                <img src="/assets/images/d1.webp" alt="" class="different_foto" width="274" height="382">
+                <img src="/assets/images/d3.webp" alt="" class="different_foto" width="451" height="312">
+            </div>
+            <div class="image_pair">
+                <img src="/assets/images/d2.webp" alt="" class="different_foto" width="381" height="323">
+                <img src="/assets/images/d4.webp" alt="" class="different_foto" width="344" height="242">
+            </div>
+        </div>
 
+        <div class="different_foto_center">
+            <img src="/assets/images/d5.webp" alt="" class="different_foto" width="295" height="392">
+        </div>
 
+        <div class="different_foto_right">
+            <div class="image_pair">
+                <img src="/assets/images/d7.webp" alt="" class="different_foto" width="290" height="348">
+                <img src="/assets/images/d9.webp" alt="" class="different_foto" width="350" height="433">
+            </div>
+            <div class="image_pair">
+                <img src="/assets/images/d6.webp" alt="" class="different_foto" width="178" height="242">
+                <img src="/assets/images/d8.webp" alt="" class="different_foto" width="258" height="196">
+            </div>
+        </div>
+    </div>
+</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
+@@include('../components/_footer.html')
 
 
 
