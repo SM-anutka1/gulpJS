@@ -17,6 +17,16 @@
 @use 'components/str1';
 @use 'components/products';
 @use 'components/footer';
+@use 'components/verhychka';
+@use 'components/srt2';
+@use 'components/bez2';
+@use 'components/srt3';
+@use 'components/srt4';
+
+
 body {
   background-color: #ffffff;
+}
+body{
+ font-family: "Comic Sans MS";;
 }
