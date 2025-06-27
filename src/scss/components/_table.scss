@@ -1,0 +1,40 @@
+.spec-table {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    thead th {
+      background-color: #f8f8f8;
+      padding: 16px;
+      text-align: left;
+      font-size: 18px;
+      font-weight: bold;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    tbody tr {
+      td {
+        padding: 20px 16px; // 20px vertical spacing
+        border-bottom: 1px solid #eee;
+
+        &:first-child {
+          font-weight: 500;
+          color: #333;
+          width: 50%;
+        }
+
+        &:last-child {
+          color: #666;
+        }
+      }
+
+      &:last-child td {
+        border-bottom: none;
+      }
+    }
+  }
+}

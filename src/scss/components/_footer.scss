@@ -75,7 +75,7 @@
 
 .footer__form {
   display: flex;
-  flex-direction: column;
+  //flex-direction: column;
   gap: 15px;
 }
 
@@ -99,8 +99,8 @@
   font-weight: 500;
   transition: background-color 0.3s;
   align-self: flex-start;
-  margin-left: 280px;
-  margin-top: -53px;
+  //margin-left: 280px;
+  //margin-top: -53px;
 }
 
 .footer__button:hover {
@@ -108,12 +108,13 @@
 }
 
 .footer__copyright {
-  text-align: center;
+  text-align: start;
   margin-top: 60px;
   padding-top: 20px;
   border-top: 1px solid #eee;
   color: black;
   font-size: 14px;
-  margin-left: -1100px;
+  margin-left: 15%;
+  //margin-left: -1100px;
 }
 

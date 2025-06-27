@@ -22,11 +22,14 @@
 @use 'components/bez2';
 @use 'components/srt3';
 @use 'components/srt4';
+@use 'components/divan-shop';
+@use 'components/table';
 
 
-body {
-  background-color: #ffffff;
-}
 body{
- font-family: "Comic Sans MS";;
+ font-family: "Comic Sans MS";
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

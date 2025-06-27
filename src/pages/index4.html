@@ -1,101 +1,264 @@
 <!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/css/main.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Product Comparison</title>
 </head>
 <body>
-@@include('../components/_header.html', {
-"img5": "./assets/images/Rectangle",
-"img": "./assets/images/pervaya",
-"img1": "./assets/images/people",
-"img2": "./assets/images/search",
-"img3": "./assets/images/heart",
-"img4": "./assets/images/cart",
-"title": "Furniro",
-})
-@@include('../components/_verhychka.html', {
-"img": "./assets/images/shop",
-"title": "<b>Product Comparison</b>",
-"text": "<b>Home > Comparison</b>",
-})
-<div class="block_large">
-    <div class="text_large">
-        <h1 class="block_large_title">Go to Product <br> page for more <br> Products</h1>
-        <p class="block_large_text">View More</p>
-    </div>
+@@include('../components/_header.html')
+<div class="main-content">
+    @@include('../components/_verhychka.html', {
+    "title": "Product Comparison",
+    "text": "<a href='./srt3.html'>Comparison</a>",
+    "img": "./assets/images/logo.webp"
+    })
 
-    <div class="divan1">
-        <img src="/assets/images/sofa1.webp" alt="" class="divan1_foto">
-        <h1 class="divan_title"> Asgaard Sofa </h1>
-        <h3 class="divan_cost">Rs. 250,000.00</h3>
-        <p class="mark_divan">4.7</p>
-        <div class="stars">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
-            </svg>
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
-            </svg>
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
-            </svg>
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
-            </svg>
-            <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.15703 6.0125L0.800781 6.9375L5.40078 11.4188L4.31328 17.75L10.0008 14.7625V0.25L7.15703 6.0125Z"
-                      fill="#FFC700"/>
-            </svg>
-            <svg width="1" height="30" viewBox="0 0 1 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line x1="0.5" x2="0.5" y2="30" stroke="#9F9F9F"/>
-            </svg>
-            <div class="palka">204 Review</div>
+    <div class="block_large">
+        <div class="text_large">
+            <h1 class="block_large_title">Go to Product <br> page for more <br> Products</h1>
+            <p class="block_large_text">View More</p>
         </div>
 
-
-    </div>
-    <div class="divan2">
-        <img src="/assets/images/sofa2.webp" alt="" class="divan1_foto">
-        <h1 class="divan_title"> Outdoor Sofa Set </h1>
-        <h3 class="divan_cost">Rs. 224,000.00</h3>
-        <p class="mark_divan">4.2</p>
-        <div class="stars">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
-            </svg>
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
-            </svg>
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
-            </svg>
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
-            </svg>
-            <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M7.15703 6.0125L0.800781 6.9375L5.40078 11.4188L4.31328 17.75L10.0008 14.7625V0.25L7.15703 6.0125Z"
-                      fill="#FFC700"/>
-            </svg>
-            <svg width="1" height="30" viewBox="0 0 1 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line x1="0.5" x2="0.5" y2="30" stroke="#9F9F9F"/>
-            </svg>
-            <div class="palka">145 Review</div>
+        <div class="divan1">
+            <img src="./assets/images/Asgaardsofa.webp" alt="" class="divan1_foto">
+            <h1 class="divan_title">Asgaard Sofa</h1>
+            <h3 class="divan_cost">Rs. 250,000.00</h3>
+            <p class="mark_divan">4.7</p>
+            <div class="stars">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
+                </svg>
+                <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.15703 6.0125L0.800781 6.9375L5.40078 11.4188L4.31328 17.75L10.0008 14.7625V0.25L7.15703 6.0125Z"
+                          fill="#FFC700"/>
+                </svg>
+                <svg width="1" height="30" viewBox="0 0 1 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0.5" x2="0.5" y2="30" stroke="#9F9F9F"/>
+                </svg>
+                <div class="palka">204 Review</div>
+            </div>
         </div>
 
+        <div class="divan2">
+            <img src="./assets/images/divan1.webp" alt="" class="divan1_foto">
+            <h1 class="divan_title">Outdoor Sofa Set</h1>
+            <h3 class="divan_cost">Rs. 224,000.00</h3>
+            <p class="mark_divan">4.2</p>
+            <div class="stars">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
+                </svg>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 0L12 6L18 6.75L13.88 11.37L15 18L9 15L3 18L4.13 11.37L0 6.75L6 6L9 0Z" fill="#FFC700"/>
+                </svg>
+                <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.15703 6.0125L0.800781 6.9375L5.40078 11.4188L4.31328 17.75L10.0008 14.7625V0.25L7.15703 6.0125Z"
+                          fill="#FFC700"/>
+                </svg>
+                <svg width="1" height="30" viewBox="0 0 1 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="0.5" x2="0.5" y2="30" stroke="#9F9F9F"/>
+                </svg>
+                <div class="palka">145 Review</div>
+            </div>
+        </div>
 
+        <div class="add_big">
+            <h1 class="add">Add A Product</h1>
+            <div class="ohra_recr">
+                <p class="ohra_recr_text1">Choose a Product</p>
+                <p class="ohra_recr_text2">∨</p>
+            </div>
+        </div>
+
+        <table class="special-table">
+            <thead>
+            <tr class="zgtabk4">
+                <th colspan="3">General</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Sales Package</td>
+                <td>1 sectional sofa</td>
+                <td>1 Three Seater, 2 Single <br> Seater</td>
+            </tr>
+            <tr>
+                <td>Model Number</td>
+                <td>TFCBLIGRBL6SRHS</td>
+                <td>DTUBLIGRBL568</td>
+            </tr>
+            <tr>
+                <td>Secondary Material</td>
+                <td>Solid Wood</td>
+                <td>Solid Wood</td>
+            </tr>
+            <tr>
+                <td>Configuration</td>
+                <td>L-shaped</td>
+                <td>L-shaped</td>
+            </tr>
+            <tr>
+                <td>Upholstery Material</td>
+                <td>Fabric + Cotton</td>
+                <td>Fabric + Cotton</td>
+            </tr>
+            <tr>
+                <td>Upholstery Color</td>
+                <td>Bright Grey & Lion</td>
+                <td>Bright Grey & Lion</td>
+            </tr>
+
+            <tr class="zgtabk4">
+                <td colspan="3">Product</td>
+            </tr>
+            <tr>
+                <td>Filling Material</td>
+                <td>Foam</td>
+                <td>Matte</td>
+            </tr>
+            <tr>
+                <td>Finish Type</td>
+                <td>Bright Grey & Lion</td>
+                <td>Bright Grey & Lion</td>
+            </tr>
+            <tr>
+                <td>Adjustable Headrest</td>
+                <td>No</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>Maximum Load Capacity</td>
+                <td>280 KG</td>
+                <td>300 KG</td>
+            </tr>
+            <tr>
+                <td>Origin of Manufacture</td>
+                <td>India</td>
+                <td>India</td>
+            </tr>
+            <tr class="zgtabk4">
+                <td colspan="3">Dimensions</td>
+            </tr>
+            <tr>
+                <td>Width</td>
+                <td>265.32 cm</td>
+                <td>265.32 cm</td>
+            </tr>
+            <tr>
+                <td>Height</td>
+                <td>76 cm</td>
+                <td>76 cm</td>
+            </tr>
+            <tr>
+                <td>Depth</td>
+                <td>167.76 cm</td>
+                <td>167.76 cm</td>
+            </tr>
+            <tr>
+                <td>Weight</td>
+                <td>45 KG</td>
+                <td>65 KG</td>
+            </tr>
+            <tr>
+                <td>Seat Height</td>
+                <td>41.52 cm</td>
+                <td>41.52 cm</td>
+            </tr>
+            <tr>
+                <td>Leg Height</td>
+                <td>5.46 cm</td>
+                <td>5.46 cm</td>
+            </tr>
+            <tr class="zgtabk4">
+                <td colspan="3">Warranty</td>
+            </tr>
+            <tr>
+                <td>Warranty Summary</td>
+                <td>1 Year Manufacturing Warranty</td>
+                <td>12 Year Manufacturing Warranty</td>
+            </tr>
+            <tr>
+                <td>Warranty Service Type</td>
+                <td>For Warranty Claims or Any Product Related Issues Please Email at operations@trevifurniture.com</td>
+                <td>For Warranty Claims or Any Product Related Issues Please Email at support@xyz.com</td>
+            </tr>
+            <tr>
+                <td>Covered in Warranty</td>
+                <td>Warranty Against Manufacturing Defect</td>
+                <td>Warranty of the product is limited to manufacturing defects only.</td>
+            </tr>
+            <tr>
+                <td>Not Covered in Warranty</td>
+                <td>The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear in The Natural Course Of Product Usage.</td>
+                <td>The Warranty Does Not Cover Damages Due To Usage Of The Product Beyond Its Intended Use And Wear & Tear in The Natural Course Of Product Usage.</td>
+            </tr>
+            <tr>
+                <td>Domestic Warranty</td>
+                <td>1 Year</td>
+                <td>3 Months</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <a href="./_srt5.html">
+                        <button class="kntable">Add To Cart</button>
+                    </a>
+                </td>
+                <td>
+                    <a href="./_srt5.html">
+                        <button class="kntable">Add To Cart</button>
+                    </a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <div class="dostichenia-container">
+            @@include('../components/_bez2.html', {
+            "img": "./assets/images/kybok.webp",
+            "title": "High Quality",
+            "text": "crafted from top materials"
+            })
+            @@include('../components/_bez2.html', {
+            "img": "./assets/images/klass.webp",
+            "title": "Warranty Protection",
+            "text": "Over 2 years"
+            })
+            @@include('../components/_bez2.html', {
+            "img": "./assets/images/podarok.webp",
+            "title": "Free Shipping",
+            "text": "Order over 150 $"
+            })
+            @@include('../components/_bez2.html', {
+            "img": "./assets/images/cvaz.webp",
+            "title": "24 / 7 Support",
+            "text": "Dedicated support"
+            })
+        </div>
     </div>
-    <div class="add_big">
-        <h1 class="add">Add A Product</h1>
-        <div class="ohra_recr"></div>
-        <div class="ohra_recr_text"></div>
-        <p class="ohra_recr_text1">Choose a Product</p>
-        <p class="ohra_recr_text2"> ∨</p>
-    </div>
+    @@include('../components/_footer.html')
+</div>
+</body>
+</html>
 
 <!--    <div class="palki">-->
 <!--        <img src="/assets/images/line294.webp" alt="" class="line294">-->
@@ -107,77 +270,137 @@
 
 <!--    </div>-->
 
-    <div class="mhogo">
-        <div class="column1">
-            <div class="general">
-                <h3 class="gen">General </h3>
-                <p class="gen2"> Sales Package</p>
-                <p class="gen3"> Model Number</p>
-                <p class="gen4"> Secondary Material</p>
-                <p class="gen5"> Configuration</p>
-                <p class="gen5"> Upholstery Material</p>
-                <p class="gen6"> Upholstery Color</p>
-            </div>
-            <div class="general">
-                <h3 class="gen">Product</h3>
-                <p class="gen2"> Filling Material</p>
-                <p class="gen3"> Finish Type</p>
-                <p class="gen4"> Adjustable Headrest</p>
-                <p class="gen5"> Maximum Load Capacity</p>
-                <p class="gen5"> Origin of Manufacture</p>
-            </div>
-            <div class="general">
-                <h3 class="gen">Dimensions</h3>
-                <p class="gen2"> Width</p>
-                <p class="gen3"> Height</p>
-                <p class="gen4"> Depth</p>
-                <p class="gen5"> Weight</p>
-                <p class="gen5"> Seat Height</p>
-                <p class="gen5"> Leg Height</p>
-            </div>
-            <div class="general">
-                <h3 class="gen">Warranty</h3>
-                <p class="gen2"> Warranty Summary</p>
-                <p class="gen3"> Warranty Service <br> Type</p>
-                <p class="gen4"> Covered in Warranty</p>
-                <p class="gen5"> Not Covered in Warranty</p>
-                <p class="gen5"> Domestic Warranty</p>
-            </div>
-        </div>
 
-        <div class="column2">
-            <div class="general2">
-                <p class="gen2"> 1 sectional sofa</p>
-                <p class="gen3"> TFCBLIGRBL6SRHS </p>
-                <p class="gen4"> Solid Wood</p>
-                <p class="gen5"> L-shaped</p>
-                <p class="gen5"> Fabric + Cotton</p>
-                <p class="gen5"> L-Bright Grey & Lion</p>
-            </div>
-            <div class="general2">
-                <p class="gen2"> Foam</p>
-                <p class="gen3"> Bright Grey & Lion </p>
-                <p class="gen4"> No</p>
-                <p class="gen5"> 280 KG</p>
-                <p class="gen5"> India</p>
-            </div>
-            <div class="general2">
-                <p class="gen2"> 265.32 cm</p>
-                <p class="gen3"> 76 cm <br> Type</p>
-                <p class="gen4"> 167.76 cm</p>
-                <p class="gen5"> 45 KG</p>
-                <p class="gen5"> 41.52 cm</p>
-                <p class="gen5"> 5.46 cm</p>
-            </div>
+<!--    <table>-->
+<!--        <caption>Sales Package</caption>-->
+<!--        <caption>Model Number</caption>-->
+<!--        <caption>Secondary Material</caption>-->
+<!--        <caption>Configuration</caption>-->
+<!--        <caption>Upholstery Material</caption>-->
+<!--        <caption>Upholstery Color</caption>-->
+
+<!--    </table>-->
 
 
 
 
 
 
-        </div>
+<!--        <div class="mhogo">-->
+<!--        <div class="column1">-->
+<!--            <div class="general">-->
+<!--                <h3 class="gen">General </h3>-->
+<!--                <p class="gen2"> Sales Package</p>-->
+<!--                <p class="gen3"> Model Number</p>-->
+<!--                <p class="gen4"> Secondary Material</p>-->
+<!--                <p class="gen5"> Configuration</p>-->
+<!--                <p class="gen5"> Upholstery Material</p>-->
+<!--                <p class="gen6"> Upholstery Color</p>-->
+<!--            </div>-->
+<!--            <div class="general">-->
+<!--                <h3 class="gen">Product</h3>-->
+<!--                <p class="gen2"> Filling Material</p>-->
+<!--                <p class="gen3"> Finish Type</p>-->
+<!--                <p class="gen4"> Adjustable Headrest</p>-->
+<!--                <p class="gen5"> Maximum Load Capacity</p>-->
+<!--                <p class="gen5"> Origin of Manufacture</p>-->
+<!--            </div>-->
+<!--            <div class="general">-->
+<!--                <h3 class="gen">Dimensions</h3>-->
+<!--                <p class="gen2"> Width</p>-->
+<!--                <p class="gen3"> Height</p>-->
+<!--                <p class="gen4"> Depth</p>-->
+<!--                <p class="gen5"> Weight</p>-->
+<!--                <p class="gen5"> Seat Height</p>-->
+<!--                <p class="gen5"> Leg Height</p>-->
+<!--            </div>-->
+<!--            <div class="general">-->
+<!--                <h3 class="gen">Warranty</h3>-->
+<!--                <p class="gen2"> Warranty Summary</p>-->
+<!--                <p class="gen3"> Warranty Service <br> Type</p>-->
+<!--                <p class="gen4"> Covered in Warranty</p>-->
+<!--                <p class="gen5"> Not Covered in Warranty</p>-->
+<!--                <p class="gen5"> Domestic Warranty</p>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class="column2">-->
+<!--            <div class="general">-->
+<!--                <p class="gen2"> 1 sectional sofa</p>-->
+<!--                <p class="gen3"> TFCBLIGRBL6SRHS </p>-->
+<!--                <p class="gen4"> Solid Wood</p>-->
+<!--                <p class="gen5"> L-shaped</p>-->
+<!--                <p class="gen5"> Fabric + Cotton</p>-->
+<!--                <p class="gen5"> L-Bright Grey & Lion</p>-->
+<!--            </div>-->
+<!--            <div class="general">-->
+<!--                <p class="gen2"> Foam</p>-->
+<!--                <p class="gen3"> Bright Grey & Lion </p>-->
+<!--                <p class="gen4"> No</p>-->
+<!--                <p class="gen5"> 280 KG</p>-->
+<!--                <p class="gen5"> India</p>-->
+<!--            </div>-->
+<!--            <div class="general">-->
+<!--                <p class="gen2"> 265.32 cm</p>-->
+<!--                <p class="gen3"> 76 cm <br> Type</p>-->
+<!--                <p class="gen4"> 167.76 cm</p>-->
+<!--                <p class="gen5"> 45 KG</p>-->
+<!--                <p class="gen5"> 41.52 cm</p>-->
+<!--                <p class="gen5"> 5.46 cm</p>-->
+<!--            </div>-->
+<!--            <div class="general">-->
+<!--                <p class="gen2"> 1 Year Manufacturing <br>Warranty</p>-->
+<!--                <p class="gen3"> For Warranty Claims or <br> Any Product Related <br> Issues Please Email at<br> operations@trevifurniture<br>.com</p>-->
+<!--                <p class="gen4"> 167.76 cm</p>-->
+<!--                <p class="gen5"> 45 KG</p>-->
+<!--                <p class="gen5"> 41.52 cm</p>-->
+<!--                <p class="gen5"> 5.46 cm</p>-->
+<!--            </div>-->
+<!--            <div class="column3">-->
+<!--                <div class="general">-->
+<!--                    <p class="gen2"> 1 sectional sofa</p>-->
+<!--                    <p class="gen3"> TFCBLIGRBL6SRHS </p>-->
+<!--                    <p class="gen4"> Solid Wood</p>-->
+<!--                    <p class="gen5"> L-shaped</p>-->
+<!--                    <p class="gen5"> Fabric + Cotton</p>-->
+<!--                    <p class="gen5"> L-Bright Grey & Lion</p>-->
+<!--                </div>-->
+<!--                <div class="general">-->
+<!--                    <p class="gen2"> Foam</p>-->
+<!--                    <p class="gen3"> Bright Grey & Lion </p>-->
+<!--                    <p class="gen4"> No</p>-->
+<!--                    <p class="gen5"> 280 KG</p>-->
+<!--                    <p class="gen5"> India</p>-->
+<!--                </div>-->
+<!--                <div class="general">-->
+<!--                    <p class="gen2"> 265.32 cm</p>-->
+<!--                    <p class="gen3"> 76 cm <br> Type</p>-->
+<!--                    <p class="gen4"> 167.76 cm</p>-->
+<!--                    <p class="gen5"> 45 KG</p>-->
+<!--                    <p class="gen5"> 41.52 cm</p>-->
+<!--                    <p class="gen5"> 5.46 cm</p>-->
+<!--                </div>-->
+<!--                <div class="general">-->
+<!--                    <p class="gen2"> 1 Year Manufacturing <br>Warranty</p>-->
+<!--                    <p class="gen3"> For Warranty Claims or <br> Any Product Related <br> Issues Please Email at<br> operations@trevifurniture<br>.com</p>-->
+<!--                    <p class="gen4"> 167.76 cm</p>-->
+<!--                    <p class="gen5"> 45 KG</p>-->
+<!--                    <p class="gen5"> 41.52 cm</p>-->
+<!--                    <p class="gen5"> 5.46 cm</p>-->
+<!--                </div>-->
+
+
+
+    @@include('../components/_table.html')
+
+
+
+
+            </div>
 
     </div>
 
 
 </div>
+</body>
+</head>

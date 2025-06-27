@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <title>Document</title>
+</head>
+<body>
+@@include('../components/_header.html', {
+"img5": "./assets/images/Rectangle",
+"img": "./assets/images/pervaya",
+"img1": "./assets/images/people",
+"img2": "./assets/images/search",
+"img3": "./assets/images/heart",
+"img4": "./assets/images/cart",
+"title": "Furniro",
+})
+<div class="strelki">
+    <div>
+        <p class="strelki__text">Home</p>
+    </div>
+
+    <div>
+        <span class="strelki__span"> > </span>
+    </div>
+
+    <div>
+        <p class="strelki__text">Shop</p>
+    </div>
+
+    <div>
+        <span class="strelki__span"> > </span>
+    </div>
+
+    <div class="strelki__block">
+        <span class="strelki__span">Asgaard sofa</span>
+    </div>
+</div>
+
+<div class="divan_mini">
+    @@include('../components/_divan_shop.html', {
+    "img": "./assets/images/minidivans",
+    "img_glav": "./assets/images/divan1",
+    "title": "Asgaard sofa", "price":
+    "Rs. 250,000.00", "star":"./assets/images/stars",
+    "sizeNow":"L",
+    "size1":"XL",
+    "size2":"XS",
+    })
+</div>
+
+
+<div class="descrip">
+    <div class="descrip__title">
+        <div>
+            <span class="descrip__span">Description</span>
+        </div>
+
+        <div>
+            <p class="descrip__text">Additional Information</p>
+        </div>
+
+        <div>
+            <p class="descrip__text">Reviews [5]</p>
+        </div>
+    </div>
+    <div class="descrip__abzac">
+        <p class="descrip__description">Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active
+            stereo speaker takes the unmistakable look and
+            sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+        <p class="descrip__description">Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled
+            engineering. Setting the bar as one of the loudest
+            speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts
+            a clear midrange
+            and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine
+            tune the controls
+            to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+    </div>
+    <div class="descrip__img">
+        <div><img src="./assets/images/divan_shop.webp" alt=""/></div>
+        <div><img src="./assets/images/divan_shop.webp" alt=""/></div>
+    </div>
+</div>
+<div class="shop__karti">
+    <h class="shop__karti__zag">Related Products</h>
+    <div class="productcart">
+        @@include('../components/_products.html', {
+        "img": "./assets/images/product5",
+        "circle": "-30%",
+        "title": "Grifo",
+        "text": "Night lamp",
+        "cost": "Rp 1.500.000",
+        "sale": "<s> Rp 3.500.000</s>",
+        "isCircle" : false,
+        "isSale" : false,
+        })
+
+        @@include('../components/_products.html', {
+        "img": "./assets/images/product6",
+        "circle": "New",
+        "color": "var(--zelenya-color)",
+        "title": "Muggo",
+        "text": "Small mug",
+        "cost": "Rp 150.000",
+        "sale": "",
+        "isCircle" : true,
+        "isSale" : false,
+        })
+        @@include('../components/_products.html', {
+        "img": "./assets/images/product7",
+        "circle": "-50%",
+        "title": "Pingky",
+        "text": "Cute bed set",
+        "cost": "Rp 7.000.000",
+        "sale": "<s> Rp 14.000.000</s>",
+        "isCircle" : true,
+        "isSale" : true,
+        })
+        @@include('../components/_products.html', {
+        "img": "./assets/images/product8",
+        "circle": "New",
+        "color": "var(--zelenya-color)",
+        "title": "Potty",
+        "text": "Minimalist flower pot",
+        "cost": "Rp 500.000",
+        "sale": "<s> Rp 14.000.000</s>",
+        "isCircle" : true,
+        "isSale" : false,
+        })
+    </div>
+    <div class="btnbig">
+        @@include('../components/_button.html', {
+        "padding-x": "35px",
+        "padding-y": "20px",
+        "border-radius": "0px",
+        "titlebtn": "Show More",
+        "font-size": "16px",
+        "colortext": "#B88E2F",
+        "color": "white",
+        "bordercolor": "#B88E2F",
+        })
+    </div>
+</div>
+</div>
+
+@@include('../components/_footer.html')
+</body>
+</html>
